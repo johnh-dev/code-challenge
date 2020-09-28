@@ -1,6 +1,6 @@
 # Encapsulates county specific values.
 class County
-    attr_accessor :name, :sales_tax_rate, :markup_rate
+    attr_reader :name, :sales_tax_rate, :markup_rate
 
     def initialize (name, sales_tax_pct, markup_pct)
         @name = name

@@ -1,6 +1,6 @@
 # Encapsulates product details.
 class Product
-    attr_accessor :brand_name, :name, :cost
+    attr_reader :brand_name, :name, :cost
 
     def initialize (brand_name, name, cost)
         @brand_name = brand_name
